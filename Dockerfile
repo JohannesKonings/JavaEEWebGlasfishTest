@@ -1,6 +1,6 @@
 FROM glassfish:latest
 
-COPY dist/WebApplication1.war /
+COPY dist/WebApplication1.war $GLASSFISH_HOME/glassfish/domains/domain1/autodeploy/
 #COPY start.sh /
 
 #EXPOSE 8080
