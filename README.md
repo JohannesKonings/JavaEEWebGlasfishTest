@@ -4,7 +4,7 @@
 
 docker build -t javaeewebglasfishtest .
 
-docker run -p 8080:8080 4848:4848 javaeewebglasfishtest
+docker run -p 8080:8080 -p 4848:4848 javaeewebglasfishtest
 
 http://localhost:8080/WebApplication1/
 
